@@ -10,6 +10,8 @@
     "lib": ["dom", "esnext"]
   },
   "include": [
+    "./types/**/*",
+    "./gatsby-node/**/*",
     "./src/**/*"
   ]
 }

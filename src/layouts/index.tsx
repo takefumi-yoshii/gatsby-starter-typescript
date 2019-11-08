@@ -1,7 +1,6 @@
 import * as React from "react"
 import Helmet from "react-helmet"
 import Header from "../components/header"
-import "./index.css"
 // ______________________________________________________
 //
 const Component: React.FC = props => (

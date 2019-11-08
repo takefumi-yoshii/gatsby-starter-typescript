@@ -1,0 +1,32 @@
+{
+  "name": "gatsby-starter-typescript",
+  "description": "Gatsby TypeScript starter",
+  "version": "1.0.0",
+  "private": true,
+  "keywords": [
+    "gatsby, typescript"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "dev": "gatsby develop",
+    "format": "prettier --write \"src/**/*.ts*\" \"types/**/*.ts*\" \"gatsby-node/**/*.ts*\""
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.6.0",
+    "@types/node": "^12.12.6",
+    "@types/react-helmet": "^5.0.14",
+    "gatsby": "^2.17.10",
+    "gatsby-plugin-graphql-codegen": "^2.0.1",
+    "gatsby-plugin-react-helmet": "^3.1.13",
+    "gatsby-plugin-typescript": "^2.1.15",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-helmet": "^5.2.1",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.7.2"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}

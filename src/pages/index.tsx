@@ -1,6 +1,5 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 import { IndexHogeQuery } from "../../types/graphql-types"
 // ______________________________________________________
 //

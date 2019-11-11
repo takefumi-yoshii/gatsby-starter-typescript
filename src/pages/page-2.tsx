@@ -7,7 +7,9 @@ const Component: React.FC = () => (
     <h1>Hi from the second page</h1>
     <p>Welcome to page 2</p>
     <ul>
-      <li><Link to="/">Back to top</Link></li>
+      <li>
+        <Link to="/">Back to top</Link>
+      </li>
     </ul>
   </div>
 )

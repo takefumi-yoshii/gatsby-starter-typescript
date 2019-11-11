@@ -15,8 +15,12 @@ const Component: React.FC<Props> = ({ data }) => (
     <p>Welcome to your new </p>
     <p>Now go build something great.</p>
     <ul>
-      <li><Link to="/page-2/">Go to page 2</Link></li>
-      <li><Link to="/authors/">Go to authors</Link></li>
+      <li>
+        <Link to="/page-2/">Go to page 2</Link>
+      </li>
+      <li>
+        <Link to="/authors/">Go to authors</Link>
+      </li>
     </ul>
   </div>
 )
